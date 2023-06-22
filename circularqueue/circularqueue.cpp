@@ -89,7 +89,7 @@ public:
 
 			FRONT_position = 0;
 
-			//iterasi dari
+			//iterasi dari awal array hingga REAR
 		}
 	}
 
