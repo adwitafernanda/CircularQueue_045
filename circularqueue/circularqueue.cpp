@@ -24,5 +24,12 @@ public:
 		}
 
 		//cek apakah antrian kosong
+		if (FRONT == max - 1) {
+			FRONT = 0;
+			REAR = 0;
+		}
+		else {
+			//Jika REAR berada di posisi terakhir array, kembali ke awal array
+		}
 	}
 }; 
